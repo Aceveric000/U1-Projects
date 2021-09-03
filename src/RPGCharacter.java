@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 public class RPGCharacter {
 
     /*Create a program that calculates an RPG Character's battle stats based on the character's physical stats.
@@ -10,4 +12,19 @@ public class RPGCharacter {
 
      The program should run using dialog boxes and the output should show ALL the character's stats including a name.
      */
+
+
+    public static void main(String[] args) {
+        String name;
+        int Buff;
+        int handsome;
+        int fast;
+
+        name = JOptionPane.showInputDialog("Welcome stranger! what is your name? ");
+        Buff = Integer.parseInt(JOptionPane.showInputDialog("wassup " + name + " How much you bench bro? "));
+        
+
+
+
+    }
 }
